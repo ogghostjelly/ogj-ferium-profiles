@@ -88,6 +88,15 @@ shadowDistance=64.0'''
 	"fallingLeaves": false
 }'''
 
+# Disable record singleplayer and record multiplayer settings
+# since they are kind of annoying.
+"config/replaymod.json" = '''{
+    "recording": {
+        "recordSingleplayer": false,
+        "recordServer": false
+    }
+}'''
+
 [mods]
 # Press 'I' in-game to disable if you get motion sickness easily!
 do-a-barrel-roll = "mr:6FtRfnLg" # Make elytra go spinny spin
@@ -136,9 +145,9 @@ mandalas-gui-dark-mode = "mr:h6zxsNVF" # Dark mode! Currently only 1.12.2-1.20.4
 even-better-enchants = "mr:6udpuGCH"   # Better enchant book textures
 
 # BACK IN MY DAY
-old-logo = "mr:rMVAkQx1"        # Remove "Java Edition" from the Minecraft logo.
-old-rain-sounds = "mr:WkuQBd6m" # I love rain
-poppies-are-now-roses = "mr:sibMV7RG"
+old-logo = "mr:rMVAkQx1"              # Remove "Java Edition" from the Minecraft logo.
+old-rain-sounds = "mr:WkuQBd6m"       # I love rain
+poppies-are-now-roses = "mr:sibMV7RG" # Roses are just prettier
 
 [resourcepacks.flower-crown-helmets] # My own flower crown helmets resourcepack
 src = "gh:OgGhostJelly/Flower-Crown-Helmets"
